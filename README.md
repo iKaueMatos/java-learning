@@ -18,7 +18,7 @@ O projeto ainda está em desenvolvimento e as próximas atualizações serão vo
 ## 💻 Pré-requisitos
 
 Antes de começar, verifique se você atendeu aos seguintes requisitos:
-* Você instalou a versão mais recente de IDE: Visual studio Code / Live SASS compiler
+* Você instalou a versão mais recente de IDE: ItelliJ / Java JDK
 * Você tem uma máquina Windows / Linux / Mac? Todos os sistemas são compativeis.
 
 
