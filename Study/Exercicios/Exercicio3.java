@@ -15,7 +15,7 @@ public class Exercicio3 {
 
        celsius = (fahrenheit - conversao) * dividido;
 
-        System.out.println("Seu valor convertido de Fahrenheit: " + celsius +"Cº");
+        System.out.println("Seu valor convertido de Fahrenheit: " + celsius + "Cº");
 
 
 
