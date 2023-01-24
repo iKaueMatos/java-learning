@@ -20,6 +20,8 @@ public class ProdutoTeste {
         p2.desconto = 0.29;
 
         System.out.println(p2.nome);
-        System.out.println((p2.preco / 100) * p2.desconto) ;
+        double media = (p2.preco / 100) * p2.desconto;
+
+        System.out.println("Desconto do produto " + p2.nome + " e de: " + media);
     }
 }
