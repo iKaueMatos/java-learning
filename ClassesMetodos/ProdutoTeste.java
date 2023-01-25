@@ -9,18 +9,23 @@ public class ProdutoTeste {
 
         //Objetos -- instancias
         //New e construtor que permite criarmos um objeto instaciando nossa classe
-        ProdutoClasse p1 = new ProdutoClasse();
-        p1.nome = "Notebook";
+
+        //Método 1 - Construtor;
+        ProdutoClasse p1 = new ProdutoClasse( "Notebook "); // Objeto instaciado
         p1.preco = 43215.14;
         p1.desconto = 0.25;
 
-        var p2 = new ProdutoClasse();
+
+        //Método 2 - Construtor;
+        var p2 = new ProdutoClasse(); // objeto instaciado
         p2.nome = "Caneta";
         p2.preco = 12.56;
         p2.desconto = 0.29;
 
+
+
         System.out.println(p2.nome);
-        double media = (p2.preco / 100) * p2.desconto;
+        double media = p1.getPreco();
 
         System.out.println("Desconto do produto " + p2.nome + " e de: " + media);
     }
