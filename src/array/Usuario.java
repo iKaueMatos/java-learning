@@ -3,8 +3,8 @@ package array;
 import java.lang.invoke.StringConcatFactory;
 
 public class Usuario {
-    String nome;
-    String email;
+    public String nome;
+    public String email;
 
     public boolean equals(Object objeto){
 

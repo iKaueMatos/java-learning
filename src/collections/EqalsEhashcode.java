@@ -1,4 +1,7 @@
-package array;
+package collections;
+
+import array.Usuario;
+
 public class EqalsEhashcode {
 
     ///Atributos
