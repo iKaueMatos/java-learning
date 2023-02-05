@@ -3,7 +3,7 @@ Study JAVA
 
 <img src="https://img.freepik.com/premium-vector/special-programming-language-computing-platform-ad_81534-2981.jpg?w=2000" alt="Java">
 
-> Basicamente esse Repositorio tem como objetivo  mostrar meus estudos na lingugem de programação Java !. 
+> Basicamente esse Repositorio tem como objetivo  mostrar meus estudos na linguagem de programação Java !. 
 
 ### Ajustes e melhorias
 
