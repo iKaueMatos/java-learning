@@ -8,7 +8,6 @@ public class Monstro extends Jogador {
 
     }
 
-
     //Construtor
     Monstro(){
         this(0, 0);
