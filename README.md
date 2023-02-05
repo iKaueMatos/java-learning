@@ -22,7 +22,7 @@ Antes de começar, verifique se você atendeu aos seguintes requisitos:
 * Você tem uma máquina Windows / Linux / Mac? Todos os sistemas são compativeis.
 
 
-## 🚀 Instalando <Nome-projeto>
+## 🚀 Instalando <Java-POO>
 
 Para instalar o <Nome projeto>, siga estas etapas:
 
