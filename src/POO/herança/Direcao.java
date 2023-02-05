@@ -1,5 +1,7 @@
 package POO.herança;
 
-public enum Enum {
+
+// Define um tipo assim como uma classe
+public enum Direcao {
     NORTE, LESTE, SUL, OESTE;
 }
