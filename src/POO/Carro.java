@@ -7,12 +7,12 @@ public class Carro {
 
 
     //Void -> vazio
-    boolean acelerar(){
+    public boolean acelerar(){
         motor.fatorInjecao += 0.4;
         return false;
     }
 
-    void freiar(){
+    public void freiar(){
         if(motor.fatorInjecao < 2.5){
             motor.fatorInjecao += 0.4;
         };
