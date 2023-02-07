@@ -1,10 +1,12 @@
 package POO.herança.carro;
 
-public class Ferrari extends  Carro{
+public class Ferrari extends  Carro implements Esportivo{
 
 
-    public Ferrari(int velocidadeAtual) {
-        super();
+
+    public Ferrari(int limiteVelocida) {
+        super(limiteVelocida);
+
     }
 
     //@ Significa -> anotashion = ou seja anotação
@@ -15,5 +17,17 @@ public class Ferrari extends  Carro{
         freiar();
     }
     velocidadeAtual += 15; //atribuindo velocidade para ferrari de 15 km/h
+    }
+
+
+    //Metodo -> implements interface
+    @Override
+    public void ligarTurbo(){
+
+    }
+
+    @Override
+    public void desligarTurbo() {
+
     }
 }

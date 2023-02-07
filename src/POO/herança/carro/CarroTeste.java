@@ -2,7 +2,7 @@ package POO.herança.carro;
 
 public class CarroTeste {
     public static void main(String[] args) {
-        Carro c1 = new Civic() {
+        Carro c1 = new Civic(40) {
             @Override
             void acelerar2() {
                 velocidadeAtual += 15;

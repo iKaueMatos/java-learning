@@ -1,10 +1,13 @@
 package POO.herança.carro;
 
-public abstract class Carro {
+public abstract class Carro  {
     int velocidadeAtual;
   final int limiteVelocidade = 50;
 
-void acelerar(){
+    public Carro(int limiteVelocida) {
+    }
+
+    void acelerar(){
 
     if (velocidadeAtual > limiteVelocidade){
         System.out.println("Você atigiu o limite de velocidade ");
