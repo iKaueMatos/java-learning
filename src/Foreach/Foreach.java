@@ -1,2 +1,16 @@
-package lambdas.Foreach;public class Foreach {
+package Foreach;
+
+public class Foreach {
+    private int numero;
+    private String nome;
+
+
+
+
+
+
+
+
+
+
 }

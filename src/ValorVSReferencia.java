@@ -42,8 +42,6 @@ public class ValorVSReferencia {
     //Alterando um primitivo
 
     static void alterarPrimitivo(int a){
-
-
         a++;
 
     }
