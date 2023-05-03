@@ -7,7 +7,7 @@ public class ArrayAlunos {
         Scanner entrada = new Scanner(System.in);
         System.out.println("Quantas notas: ");
         double qtdNotas = entrada.nextDouble();
-        //referenciando valores qtdNotas para criar um array - com as posições escolhidas pelo usuario;
+        //Referenciando valores qtdNotas para criar um array - com as posições escolhidas pelo usuario;
         double[] notas = new double [(int) qtdNotas];
 
         switch ((int) qtdNotas){

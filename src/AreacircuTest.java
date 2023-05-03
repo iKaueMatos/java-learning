@@ -8,8 +8,6 @@ public class AreacircuTest {
         Acessando o atributo pi diretamente da classe
         O valor de pi esta associado a Classe;
         */
-
-
         System.out.println(a.area());
 
         //Metodo 2

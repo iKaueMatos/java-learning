@@ -17,7 +17,6 @@ public class CalculoTeste {
         Calculo subtracao = new Subtracao();
         System.out.println(subtracao.executar(7,8));
 
-
     }
 
 }

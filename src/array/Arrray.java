@@ -22,7 +22,6 @@ public class Arrray {
             }
         }
 
-
         //Segunda ARRAY PERCORRENDO
         double[] notasAlunoc = {6.9, 6.4, 7.8};
         int soma = 0;
