@@ -25,7 +25,7 @@ public class Verification {
         this.idade = idade;
     }
 
-    public static void verificationName(String nome) {
+    public static void verificationString(String nome) {
         boolean alphabetic = Character.isAlphabetic((nome.charAt(nome.length() - 1)));
         if(Character.isAlphabetic(nome.charAt(0)) && alphabetic) {
             System.out.println("Correto!");
@@ -53,6 +53,8 @@ public class Verification {
 
         executeQuery.execute();
         System.out.println("Dados inseridos com sucesso!");
+
+        connector.close();
     }
 
     public static void selectTableConsult() throws SQLException {
@@ -78,6 +80,8 @@ public class Verification {
         for (Dados d : Clientes) {
             System.out.println(d.getId() + "|" + d.getNome() + "|" + d.getSobrenome() + "|" + d.getIdade() + "|" + d.getBairro());
         }
+
+        connector.close();
     }
 
     public static void UpdateTable() throws SQLException {
@@ -110,9 +114,32 @@ public class Verification {
                 query.execute();
 
                 System.out.println("Cliente alterado com sucesso!");
+
+                connector.close();
             }
         }
+    public static void DeleteUser() throws SQLException {
+        Scanner usuarioDelete = new Scanner(System.in);
+        System.out.println("Informe o Id do cliente: ");
+        int id = usuarioDelete.nextInt();
 
+        Connection connector = Connector.getConectar();
+        String sqlDelete = "DELETE FROM Clientes WHERE id = ?";
+
+        PreparedStatement queryEx = connector.prepareStatement(sqlDelete);
+        queryEx.setInt(1,id);
+
+        ResultSet count = queryEx.executeQuery();
+        //executeUpdate -> ira retornar a quantidade de linhas que possivelmente foram afetadas com a exclusão de 1 usuario
+        if(queryEx.executeUpdate() > 0) {
+            System.out.println("Cliente excluido com sucesso");
+            System.out.println("Linhas afetadas:"+ count);
+        }else {
+            System.out.println("Nenhum usuario foi excluido");
+        }
+        connector.close();
+        usuarioDelete.close();
+    }
 
 
     }
