@@ -1,22 +1,23 @@
 package JDBC;
-
+import java.sql.DriverManager;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
 
-public class TesteConexa {
-    public static void conectar()  {
+public class Connector {
+    public static Connection getConectar()  {
 
-        final String url = "jdbc:mysql://localhost";
+    try {
+        final String url = "jdbc:mysql://localhost/curso";
         final String usuario = "root";
         final String password = "minhasenha";
-
-        try {
-            Connection connection = DriverManager.getConnection(url,usuario,password);
-            System.out.println("Conectado!");
-        } catch (SQLException event) {
+        
+        return DriverManager.getConnection(url,usuario,password);
+      
+    } catch (SQLException event) {
             //Para verificarmos se vai dar erro ou não!
             throw new RuntimeException(event);
+            
         }
     }
 }
