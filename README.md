@@ -9,11 +9,11 @@ Study JAVA
 
 O projeto juntamente com os estudos ainda está em desenvolvimento e as próximas atualizações serão voltadas nas seguintes tarefas:
 
-- [ ] Tarefa 1 - Se familiarizar com sintaxe
-- [ ] Tarefa 2 - Criar classes
-- [ ] Tarefa 3
-- [ ] Tarefa 4
-- [ ] Tarefa 5
+- [x] Tarefa 1 - Se familiarizar com a sintaxe
+- [x] Tarefa 2 - Aprender orientação a objetos
+- [ ] Tarefa 3 - Manipular o banco de dados utilizando java & mysql
+- [ ] Tarefa 4 - JPA - Hibernate
+- [ ] Tarefa 5 - Spring Boot & MongoDB
 
 ## 💻 Pré-requisitos
 
