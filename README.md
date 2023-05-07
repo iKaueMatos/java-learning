@@ -1,4 +1,4 @@
-Study JAVA
+## Study JAVA
 
 
 <img src="https://img.freepik.com/premium-vector/special-programming-language-computing-platform-ad_81534-2981.jpg?w=2000" alt="Java">
@@ -7,7 +7,7 @@ Study JAVA
 
 ### Ajustes e melhorias
 
-O projeto juntamente com os estudos ainda está em desenvolvimento e as próximas atualizações serão voltadas nas seguintes tarefas:
+Próximas atualizações do repositorio serão voltadas nas seguintes tarefas:
 
 - [x] Tarefa 1 - Se familiarizar com a sintaxe
 - [x] Tarefa 2 - Aprender orientação a objetos
