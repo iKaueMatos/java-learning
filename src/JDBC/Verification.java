@@ -41,7 +41,6 @@ public class Verification {
         return match;
     }
 
-   
     public static void insertTable(String nome,int idade, String bairro, String sobrenome) throws SQLException {
         Connection connector = Connector.getConectar();
         String sql = "INSERT INTO Clientes (nome, idade, bairro, sobrenome) VALUES (?, ?, ?, ?)";
