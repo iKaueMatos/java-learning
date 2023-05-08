@@ -15,7 +15,6 @@ public class Mapa {
         System.out.println(usuarios.keySet()); // Exibe os valores na tela ou seja a quantidade de elementos que tem dentro da nossa collection (array);
         System.out.println(usuarios.values()); // retorna os valores no caso somente os nomes dentro de uma lista
         System.out.println(usuarios.entrySet()); // consegue retornar chave e valor a mesmo tempo;
-
    //Percorrendo os valores de um map
 
         for(int chave: usuarios.keySet()){
