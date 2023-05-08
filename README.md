@@ -1,4 +1,4 @@
-Study JAVA
+## Study JAVA
 
 
 <img src="https://img.freepik.com/premium-vector/special-programming-language-computing-platform-ad_81534-2981.jpg?w=2000" alt="Java">
@@ -7,13 +7,13 @@ Study JAVA
 
 ### Ajustes e melhorias
 
-O projeto juntamente com os estudos ainda está em desenvolvimento e as próximas atualizações serão voltadas nas seguintes tarefas:
+Próximas atualizações do repositorio serão voltadas nas seguintes tarefas:
 
-- [ ] Tarefa 1 - Se familiarizar com sintaxe
-- [ ] Tarefa 2 - Criar classes
-- [ ] Tarefa 3
-- [ ] Tarefa 4
-- [ ] Tarefa 5
+- [x] Tarefa 1 - Se familiarizar com a sintaxe
+- [x] Tarefa 2 - Aprender orientação a objetos
+- [x] Tarefa 3 - Manipular o banco de dados utilizando java & mysql
+- [ ] Tarefa 4 - JPA - Hibernate
+- [ ] Tarefa 5 - Spring Boot & MongoDB
 
 ## 💻 Pré-requisitos
 
