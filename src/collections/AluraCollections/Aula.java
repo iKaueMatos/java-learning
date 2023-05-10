@@ -1,4 +1,4 @@
-package array.AluraCollections;
+package collections.AluraCollections;
 
 
 //Interface comparable <AULA> se referindo diretamente a classe aula ou objeto Aula

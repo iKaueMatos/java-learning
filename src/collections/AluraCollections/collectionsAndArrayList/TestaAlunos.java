@@ -1,4 +1,4 @@
-package array.AluraCollections.collectionsAndArrayList;
+package collections.AluraCollections.collectionsAndArrayList;
 
 import java.util.*;
 
