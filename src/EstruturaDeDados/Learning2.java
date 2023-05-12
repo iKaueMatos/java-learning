@@ -1,11 +1,9 @@
 package EstruturaDeDados;
 
-import java.util.Arrays;
-
 public class Learning2 {
 
-    private String[] element;
-    private int size;
+    private static String[] element;
+    private static int size;
 
     //Construct
     public Learning2(int capacity) {
@@ -24,13 +22,53 @@ public class Learning2 {
 
     }
 
+    public static String search(int position) {
+
+        if(!(position >= 0 && position < size)){
+            throw new IllegalArgumentException("Posição invalida");
+        }
+        System.out.println("Number sendo retornado!");
+        return element[position];
+
+    }
+
+    //Element exist ?
+    public int elementExist(String element) {
+        for (int i = 0; i < Learning2.size; i++) {
+            if (Learning2.element[i].equals(element)) return i;
+            System.out.println("Element verification exist!");
+        }
+        return -1;
+    }
+
+    //return size
+    public int size() {
+        return this.size;
+    }
+
+
     //Return Values array
     @Override //Anotation
     public String toString() {
-        return "Learning2 [" +
-                "Array = " + Arrays.toString(element) +
-                ']';
+        StringBuilder arraycomplex = new StringBuilder();
+        arraycomplex.append("[");
+
+        for (int i = 0; i < this.size-1; i ++){
+            arraycomplex.append(this.element[i]);
+            arraycomplex.append(",");
+        }
+
+        if(this.size > 0){
+            arraycomplex.append(this.element[this.size -1]);
+        }
+
+        arraycomplex.append("]");
+        return arraycomplex.toString();
     }
+
+
+
+
 
 //Teoricamente essa função não tem eficiente quanto poderia ser pela questão de que trabalha sempre verificando e percorrendo todos os
     //Elementos que tem dentro do array com isso ele se torna inificiente
@@ -43,5 +81,6 @@ public class Learning2 {
 //            }
 //        }
 //      }
+
 
 }

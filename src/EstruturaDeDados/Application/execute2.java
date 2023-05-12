@@ -7,7 +7,7 @@ import java.util.Scanner;
 public class execute2 {
     public static void main(String[] args) throws Exception {
 
-        Learning2 array = new Learning2(2);
+        Learning2 array = new Learning2(10);
 
 //        Scanner Prohibited = new Scanner(System.in);
 //        System.out.println("Digite a capacidade do array: ");
