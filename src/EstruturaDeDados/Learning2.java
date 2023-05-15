@@ -2,8 +2,9 @@ package EstruturaDeDados;
 
 public class Learning2 {
 
-    private static String[] element;
-    private static int size;
+    private  String[] element;
+    private int size;
+    private int position;
 
     //Construct
     public Learning2(int capacity) {
@@ -22,20 +23,20 @@ public class Learning2 {
 
     }
 
-    public static String search(int position) {
+    public String search(int position) {
 
-        if(!(position >= 0 && position < size)){
+        if(!(position >= 0 && position < this.size)){
             throw new IllegalArgumentException("Posição invalida");
         }
         System.out.println("Number sendo retornado!");
-        return element[position];
+        return this.element[position];
 
     }
 
     //Element exist ?
     public int elementExist(String element) {
-        for (int i = 0; i < Learning2.size; i++) {
-            if (Learning2.element[i].equals(element)) return i;
+        for (int i = 0; i < this.size; i++) {
+            if (this.element[i].equals(element)) return i;
             System.out.println("Element verification exist!");
         }
         return -1;
@@ -45,7 +46,6 @@ public class Learning2 {
     public int size() {
         return this.size;
     }
-
 
     //Return Values array
     @Override //Anotation

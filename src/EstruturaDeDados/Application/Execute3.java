@@ -2,8 +2,6 @@ package EstruturaDeDados.Application;
 
 import EstruturaDeDados.Learning2;
 
-import static EstruturaDeDados.Learning2.search;
-
 public class Execute3 {
     public static void main(String[] args) throws Exception {
 
@@ -16,7 +14,7 @@ public class Execute3 {
         System.out.println(array);
 
         //Captured position
-        System.out.println(array.elementExist(search(2)));
+//        System.out.println(array.elementExist());
 
     }
 }
