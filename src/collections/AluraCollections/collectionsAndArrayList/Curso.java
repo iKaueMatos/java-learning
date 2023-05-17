@@ -1,4 +1,4 @@
-package collections.AluraCollections;
+package collections.AluraCollections.collectionsAndArrayList;
 //Diferenças da ArrayList para LinkedList
 
 //As principais diferenças entre ArrayList e LinkedList em Java são:
@@ -15,8 +15,6 @@ package collections.AluraCollections;
 //
 //        Em resumo, se você precisar de uma lista para acessar rapidamente elementos aleatórios e iterá-los, use ArrayList. Por outro lado, se você precisar inserir ou remover muitos elementos em posições intermediárias da lista, ou se a lista for grande e você precisar economizar memória, use LinkedList.
 
-
-import collections.AluraCollections.collectionsAndArrayList.Aluno;
 
 import java.util.*;
 

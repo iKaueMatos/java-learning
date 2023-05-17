@@ -1,4 +1,4 @@
-package collections.AluraCollections;
+package collections.AluraCollections.collectionsAndArrayList;
 
 import java.util.ArrayList;
 import java.util.Collections;
