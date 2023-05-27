@@ -12,8 +12,6 @@ Próximas atualizações do repositorio serão voltadas nas seguintes tarefas:
 - [x] Tarefa 1 - Se familiarizar com a sintaxe
 - [x] Tarefa 2 - Aprender orientação a objetos
 - [x] Tarefa 3 - Manipular o banco de dados utilizando java & mysql
-- [ ] Tarefa 4 - JPA - Hibernate
-- [ ] Tarefa 5 - Spring Boot & MongoDB
 
 ## 💻 Pré-requisitos
 
